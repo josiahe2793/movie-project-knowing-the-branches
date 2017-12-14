@@ -31,3 +31,16 @@ body{
     background-color: blue;
     color:white;
 }
+
+#rating{ 
+    position: absolute;
+    margin-left:400px;
+    width:120px;
+    height:150px;
+}
+
+#jo {
+    margin-left:500px; 
+    margin-top:-200px;
+}
+
