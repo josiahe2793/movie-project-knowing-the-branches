@@ -1,21 +1,30 @@
+body{
+    background-color:#4DA1E8;
+}
+
 .title{
-    color: brown;
+    color: white;
     text-align: center;
+    font-family:Oswald;
 }
 
 .content{
-    color: red;
+    color: white;
     text-align: center;
+    font-family: Quattrocento;
 }
 
 .questions{
-    color:blue;
+    color:white;
+    font-family: Quattrocento;
 }
 
 
 #questions{
     text-align: center;
-    color: blue;
+    color: white;
+    font-family:Oswald;
+    
 }
 
 .button{
