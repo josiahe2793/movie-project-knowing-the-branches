@@ -1,0 +1,24 @@
+.title{
+    color: brown;
+    text-align: center;
+}
+
+.content{
+    color: red;
+    text-align: center;
+}
+
+.questions{
+    color:blue;
+}
+
+
+#questions{
+    text-align: center;
+    color: blue;
+}
+
+.button{
+    background-color: blue;
+    color:white;
+}
