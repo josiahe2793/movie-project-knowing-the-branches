@@ -25,6 +25,7 @@ body{
     color: white;
     font-family:Acme;
     
+    
 }
 
 .button{
@@ -34,9 +35,9 @@ body{
 
 #rating{ 
     position: absolute;
-    margin-left:400px;
-    width:120px;
-    height:150px;
+    margin-left:300px;
+    width:100px;
+    height:100px;
 }
 
 #jo {
@@ -44,3 +45,6 @@ body{
     margin-top:-200px;
 }
 
+#text { 
+    position:relative;
+}
