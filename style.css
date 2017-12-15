@@ -5,25 +5,25 @@ body{
 .title{
     color: white;
     text-align: center;
-    font-family:Oswald;
+    font-family:Acme;
 }
 
 .content{
     color: white;
     text-align: center;
-    font-family: Quattrocento;
+    font-family: Play;
 }
 
 .questions{
     color:white;
-    font-family: Quattrocento;
+    font-family: Play;
 }
 
 
 #questions{
     text-align: center;
     color: white;
-    font-family:Oswald;
+    font-family:Acme;
     
     
 }
