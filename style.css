@@ -6,6 +6,7 @@ body{
     color: white;
     text-align: center;
     font-family:Acme;
+    background-color: brown;
 }
 
 .content{
@@ -17,16 +18,9 @@ body{
 .questions{
     color:white;
     font-family: Play;
-}
-
-
-#questions{
     text-align: center;
-    color: white;
-    font-family:Acme;
-    
-    
 }
+
 
 .button{
     background-color: blue;
@@ -48,4 +42,10 @@ body{
 
 #text { 
     position:relative;
+}
+
+.redText{
+    color:#ff6666;
+    font-weight:bold;
+    
 }
