@@ -15,31 +15,58 @@
   <div class= "title">
   <h1>Knowing The Branches</h1>
   </div>
-   
-  <img id="rating" src = "images/ESRB.png"/>
   
-  <div class="content">
-  <h3>Description</h3>
-  <p id="text">  It passes laws, sets taxes and protects it's citizens each and everyday. That would be <span class =.redText>Government</span> and in this film Josiah is on a mission to answer some of America's most pressing questions </p>
-  </div>
+  <div id = "container"> 
+   <img id="rating" src = "images/ESRB.png"/>
   
-  <div class ="questions">
-  <h3 >Questions</h3>
-  <ul>
-      <li>How does our <span class =.redText>Government actaully work?</span></li>
-      <li>Why are there only 2 major parties in America?</li>
-      <li>Should we even have a <span class =.redText>Government</span>?</li>
-  </ul>
-  </div>
-  
-  <img  src = "images/capital.jpg"/>
-  <img id= "jo" src = "images/josiah.png"/>
+  <div class="content_item">
+    <img id= "jo" src = "images/josiah.png"/>
  
-  <form action="http://www.w3schools.com/action_page.php" method="get">
-      
-  <strong>Order your tickets now</strong> <br>
-  <input type= "text" name="Offer" placeholder= "Email" required>
-  <input class= "button" type="submit" value="Submit">
+    
+      <div class="text_item">
+           <h3 class = "subheading">Description</h3>
   
+            <p id="text">It passes laws, sets taxes and protects it's citizens each and everyday. That would be <span class ="redText">Government</span> and in this film Josiah is on a mission to answer some of America's most pressing questions. 
+            
+            </p>
+      </div><!-- text_item end -->
+      
+  </div>
+ 
+  
+  
+  <div class ="content_item">
+  
+      <div class="text_item" id="questions">
+          <h3 class ="subheading">Questions</h3>
+          <ul id = "ul_questions">
+        
+          <li>How does our <span class ="redText">Government</span> actaully work?</li>
+          <li>Why are there only 2 major parties in America?</li>
+          <li>Should we even have a <span class ="redText">Government</span>?</li>
+          </ul>
+      </div>
+      
+  </div>
+  
+  <div id="capital_container">
+    <img id="img_capital"  src = "images/capital.jpg"/>  
+  </div>
+  
+  
+ 
+  <form id = "form_order" action="http://www.w3schools.com/action_page.php" method="get">
+  
+  From One to Five, how intrested are you in this movie? <br>
+  <input type="radio" name="one" value="1"> 1 <br> 
+  <input type="radio" name="two" value="2"> 2 <br> 
+  <input type="radio" name="three" value="3"> 3 <br> 
+  <input type="radio" name="four" value="4"> 4 <br> 
+  <input type="radio" name="five" value="5"> 5 <br> 
+      
+  <strong><p id = "order">Order your tickets now</p></strong> 
+  <input id = "input_offer" type= "text" name="Offer" placeholder= "Email" required>
+  <input class= "button" type="submit" value="Submit">
+  </div>
   </body>
 </html>
