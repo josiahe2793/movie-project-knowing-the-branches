@@ -3,6 +3,7 @@ body{
     background-color:black;
     padding:0px;
     margin:0px;
+  
 }
 .title{
     color: white;
@@ -31,8 +32,8 @@ h1{
     
 }
 
-#questions
-{
+
+#questions{
     margin-left: 250px;
 }
 
@@ -46,17 +47,24 @@ li{
     clear:both;
 }
 
-#capital_container
-{
+#capital_container{
     width: 100%;
     text-align: center;
+}
+
+.questions{
+    max-width:500px;
+    margin:0 auto;
+    text-align:left;
+    color:white;
+
 }
 
 #form_order{
     color:white;
     position:absolute;
-    bottom:100px;
-    left:25px;
+    bottom:150px;
+    right:30px;
     border:solid 6px white;
     padding:10px;
     
@@ -77,20 +85,18 @@ li{
 }
 #rating{ 
     position:absolute;
-    left:1200px;
-    top:500px;
-    width:150px;
-    height: 180px;
+    left:1150px;
+    top:130px;
+    width:100px;
+    height: 150px;
     margin-top: -50px;
     margin-right: -10px; 
-    
-}
+} 
 
-#jo {
+#jo{
     float:left;
     margin-right:100px; 
     margin-bottom:50px;
-    
 }
 
 .redText{
@@ -99,8 +105,18 @@ li{
     
 }
 
-.questions
-{
+
+.questions{
     margin-left: 250px;
     padding:0px;
+}
+
+#cap {
+    float:left;
+}
+
+#promo{ 
+    text-align:center;
+    font-family: Cinzel;
+    color:white;
 }
