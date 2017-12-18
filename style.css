@@ -1,5 +1,5 @@
 body{
-    background-color:#4DA1E8;
+    background-color:#6495ED;
 }
 
 .title{
@@ -16,9 +16,10 @@ body{
 }
 
 .questions{
+    max-width:500px;
+    margin:0 auto;
+    text-align:left;
     color:white;
-    font-family: Play;
-    text-align: center;
 }
 
 
@@ -28,16 +29,18 @@ body{
 }
 
 #rating{ 
-    position: absolute;
-    margin-left:300px;
-    width:100px;
-    height:100px
+    position: relative;
+     width:100px;
+    height:100px;
+    margin-left: 630px;
+    margin-top: 0px;
+  
   
 }
 
 #jo {
-    margin-left:500px; 
-    margin-top:-200px;
+    float:right; 
+    margin-top:-3px;
 }
 
 #text { 
@@ -48,4 +51,14 @@ body{
     color:#ff6666;
     font-weight:bold;
     
+}
+
+#cap {
+    float:left;
+}
+
+#promo{ 
+    text-align:center;
+    font-family: Cinzel;
+    color:white;
 }
